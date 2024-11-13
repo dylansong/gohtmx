@@ -1,0 +1,1 @@
+air & npx tailwindcss -i ./static/css/input.css -o ./static/css/style.min.css --watch --minify & templ generate --watch & npx browser-sync start --proxy "localhost:8080" --files "**/*.templ,**/*.css, **/*.js, **/*.go"
